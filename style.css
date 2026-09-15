@@ -26,7 +26,7 @@ body::before {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: calc(min(600px * 1.4, 100vw) * 141 / 1080);
+    height: calc(min(600px * 1.4, 100vw) * 142 / 1080);
     background-color: #00276F;
     z-index: 0;
     pointer-events: none;
@@ -47,11 +47,7 @@ body::before {
     background-position: center bottom;
     background-size: 100% auto;
     image-rendering: pixelated;
-}
-
-p {
-    margin-bottom: 30px;
-    padding: 0 15px;
+    padding-bottom: 20%;
 }
 
 strong {
@@ -88,8 +84,24 @@ a {
 
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    width: 100%;
     margin: 0 auto 30px;
     image-rendering: pixelated;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    right: 16px;
+
+    display: flex;
+    justify-content: space-between;
+
+    z-index: 2;
 }
