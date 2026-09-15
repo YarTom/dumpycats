@@ -47,7 +47,7 @@ body::before {
     background-position: center bottom;
     background-size: 100% auto;
     image-rendering: pixelated;
-    padding-bottom: 20%;
+    padding-bottom: 200px;
 }
 
 strong {
@@ -95,6 +95,7 @@ img {
 }
 
 .bottom-text {
+    align-items: self-end;
     position: absolute;
     bottom: 16px;
     left: 16px;
